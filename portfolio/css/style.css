@@ -589,8 +589,31 @@ li {
   .skill-item {
     width: 100%;
     margin-bottom: 35px;
+  /* 自作 */
+    position: relative;
   }
 
+.photos img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 30px auto;
+  animation: photo 1s infinite;
+  opacity: 0;
+}
+
+@keyframes photo{
+  0%{ opacity: 0;}
+  50%{ opacity: 1;}
+}
+
+.photos img:nth-of-type(1) {
+    animation-delay: 0s;
+}
+.photos img:nth-of-type(2) {
+    animation-delay: 0s;
+}
+/* ここまで自作 */
   .skill-item:last-child {
     margin-bottom: 0;
   }
@@ -619,3 +642,4 @@ li {
     padding: 50px 0;
   }
 }
+
