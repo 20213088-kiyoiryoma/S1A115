@@ -3,6 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <title>マークアップされたHTML文書</title>
+        <style>
+            .br::before {
+            content: "\A" ;
+            white-space: pre ;
+            }
+        </style>
     </head>
     <body>
         <article>
@@ -11,6 +17,8 @@
                 この度、弊社のWebサイトを一新しました。スマートフォンにも対応し、気持ちも新たに活動して参ります。
             </p>
             <a href="https://www.hcs.ac.jp/">詳細はこちら！</a>
+            <span class="br"></span>
+            <a class="button_css" href="../index.html">PORTFOLIOに戻る</a>
         </article>
     </body>
 </html>
