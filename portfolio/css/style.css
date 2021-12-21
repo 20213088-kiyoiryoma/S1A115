@@ -138,7 +138,7 @@ li {
 }
 
 /*--------------------------------
- メインビジュアル
+メインビジュアル
 ---------------------------------*/
 .main-visual {
   display: flex;
@@ -188,7 +188,7 @@ li {
 }
 
 /*--------------------------------
- Works
+Works
 ---------------------------------*/
 .works-list {
   display: flex;
@@ -239,7 +239,7 @@ li {
   border: 2px solid #9ec34b;
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
 }
 .btn-open:after{
   width: 100%;
